@@ -125,8 +125,8 @@ Persentase_keberhasilan = 97.00863656603606
 3. The predictions are plotted against the actual values and the error is also plotted.![prediction-output-comparison](images/prediction-output-comparison.png)![prediction-error-comparison](images/prediction-error-graph.png)
 4. Performance metrics such as MSE, RMSE, and MAPE are calculated and printed for the predictions in which you'll get these values
 ```
-mse = 0.4706115752918306
-rmse = 0.6860113521595912
-MAPE = 11.725411817619984
-Persentase_keberhasilan = 88.27458818238001
+mse = 0.5809202934773642
+rmse = 0.7621812733709509
+MAPE = 13.370079208026887
+Persentase_keberhasilan = 86.62992079197312
 ```
