@@ -130,6 +130,3 @@ rmse = 0.6860113521595912
 MAPE = 11.725411817619984
 Persentase_keberhasilan = 88.27458818238001
 ```
-
-## Contributing
-You can freely fork this repository and create a pull request. If you have any problems regarding this project you can contact me thru my email.
