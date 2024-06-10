@@ -108,9 +108,9 @@ The data is then split into input (X) and output (Y) for training.
 - A Sequential model is defined using Keras with three hidden layers each having 16 neurons and 'relu' activation function. The output layer has 1 neuron with 'sigmoid' activation function.
 - The model is compiled with 'mean_squared_error' as the loss function and 'adam' as the optimizer.
 - A custom callback is defined to plot the losses after each epoch.
-- The model is trained on the data for 500 epochs. This is the result graph of the model training : ![training-plot-graph](images/training-plot-graph.png)
+- The model is trained on the data for 500 epochs. This is the result graph of the model training : ![training-plot-graph](images/training-plot-graph1.png)
 - The model's predictions on the training data are obtained and denormalized.
-- The predictions are plotted against the actual values and the error is also plotted. Here are the results of it's error plot![training-error-graph](images/training-error-graph.png) ![training-output-comparison](images/training-output-comparison.png)
+- The predictions are plotted against the actual values and the error is also plotted. Here are the results of it's error plot![training-error-graph](images/training-error-graph1.png) ![training-output-comparison](images/training-output-comparison1.png)
 - Performance metrics such as MSE, RMSE, and MAPE are calculated and printed in which you will get these values
 ```
 mse = 6.548361864962357e-15
@@ -122,7 +122,7 @@ Persentase_keberhasilan = 97.00863656603606
 ### B. Prediction Stage
 1. The model is used to predict the output for new input data (the TPT value for year 2022-2023)
 2. The predictions are denormalized.
-3. The predictions are plotted against the actual values and the error is also plotted.![prediction-output-comparison](images/prediction-output-comparison.png)![prediction-error-comparison](images/prediction-error-graph.png)
+3. The predictions are plotted against the actual values and the error is also plotted.![prediction-output-comparison](images/prediction-output-comparison1.png)![prediction-error-comparison](images/prediction-error-graph1.png)
 4. Performance metrics such as MSE, RMSE, and MAPE are calculated and printed for the predictions in which you'll get these values
 ```
 mse = 0.5809202934773642
